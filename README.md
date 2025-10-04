@@ -48,6 +48,7 @@ which is negative near the throat, indicating exotic matter.
 
 ---
 
+<!-- 
 ## 🧩 Example Usage (Python)
 
 ```python
@@ -68,3 +69,4 @@ fig.update_layout(
     width=900, height=750
 )
 fig.show()
+
