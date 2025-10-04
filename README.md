@@ -8,27 +8,27 @@ This dataset provides a **numerically generated embedding diagram** of a Morrisâ
 
 The dataset contains sampled values from the **spatial embedding surface** of a spherically symmetric, static wormhole with shape function:
 
-\[
+$$
 b(r) = \frac{b_0^2}{r}
-\]
+$$
 
-and throat radius \( b_0 = 1.0 \).  
-The embedding surface \( z(r) \) satisfies:
+with throat radius ( b_0 = 1.0 ).
 
-\[
+The embedding surface ( z(r) ) satisfies the differential equation:
+
+$$
 \frac{dz}{dr} = \pm \sqrt{\frac{b(r)}{r - b(r)}}
-\]
+$$
 
-and is revolved around the z-axis to produce the full 3D geometry.  
-Energy density is derived from the Einstein field equations:
+This surface is revolved around the z-axis to produce the full 3D geometry.
 
-\[
+The energy density is derived from the Einstein field equations:
+
+$$
 \rho(r) = \frac{b'(r)}{8\pi r^2}
-\]
+$$
 
-which is negative near the throat, indicating exotic matter.
-
----
+This energy density becomes negative near the throat, indicating the presence of **exotic matter**.
 
 ## ðŸ“‚ File Contents
 
